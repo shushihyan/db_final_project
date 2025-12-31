@@ -98,7 +98,7 @@ The credentials and configuration in this repository are for local testing only.
 
 1. Clone
 2. docker compose up -d
-3. Create `.env` (set `DATABASE_URL` and `DB_*` vars)
+3. Create `.env` (set `DATABASE_URL` and `DB_*` vars) (optional)
 4. (Optional) pip install -r requirements.txt
 5. python3 scripts/init_db.py
 6. uvicorn main:app --reload --port 8000
